@@ -6,4 +6,5 @@
 ## OhMyPosh Terminal Theme
 *Explanation coming soon*
 If you have any questions, [send me a friend request on Discord](https://discord.com/invite/charold#9379)
+
 DiscordUser = charold#9379
