@@ -64,5 +64,6 @@ function translate() {
   param (
     [String]$text
   )
+  # Replace with your Powershell Directory Location
   D:\OneDrive\Harold\Documentos\PowerShell\Scripts\translate.ps1 $text
 }
