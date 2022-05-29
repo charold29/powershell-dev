@@ -67,3 +67,14 @@ function translate() {
   # Replace with your Powershell Directory Location
   D:\OneDrive\Harold\Documentos\PowerShell\Scripts\translate.ps1 $text
 }
+# 8. Recycle module
+# <1> Move a file to the recycle bin <1>
+function trash() {
+  param (
+    [String]$file
+  )
+  Remove-ItemSafely $file
+}
+
+set-alias papelera trash
+
