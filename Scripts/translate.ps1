@@ -1,7 +1,7 @@
 # Input Text
 param([String]$Text)
 
-$TargetLanguage = "en"
+$TargetLanguage = "es"
 $Uri = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=$($TargetLanguage)&dt=t&q=$Text"
 
 # Get the response from the web request
