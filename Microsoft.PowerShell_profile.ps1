@@ -57,8 +57,8 @@ function unmute {
   set-audioDevice -playbackMute $false
 }
 
-# 7. Translate
-# <1> English to Spanish Function <1> #
+# 7. Verbal communication
+# <1> Translate Function <1> #
 
 function translate() {
   param (
@@ -67,3 +67,26 @@ function translate() {
   # Replace with your Powershell Directory Location
   D:\OneDrive\Harold\Documentos\PowerShell\Scripts\translate.ps1 $text
 }
+
+# <2> Get a word meanings <2> #
+
+function dictionary() {
+  param (
+    [String]$word,
+    [Int]$index 
+  )
+
+  D:\OneDrive\Harold\Documentos\PowerShell\Scripts\dictionary.ps1 -Word $word $index
+}
+
+# 8. Recycle module
+# <1> Move a file to the recycle bin <1>
+function trash() {
+  param (
+    [String]$file
+  )
+  Remove-ItemSafely $file
+}
+
+set-alias papelera trash
+
