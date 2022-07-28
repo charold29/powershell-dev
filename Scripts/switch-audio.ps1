@@ -1,5 +1,5 @@
-$speakerid = '{0.0.0.00000000}.{6dac7e0b-2fd3-48e4-b24d-2e6d8d83f0f1}'
-$headsetid = '{0.0.0.00000000}.{904d2999-3a4a-44b5-a632-7bb32207a638}'
+$speakerid = '{0.0.0.00000000}.{958789a9-9849-44a9-854b-4e5adc1a8154}'
+$headsetid = '{0.0.0.00000000}.{08227e29-cab5-4086-b2d8-2d43a34fd394}'
 
 $speakers = Get-AudioDevice -Id $speakerid
 

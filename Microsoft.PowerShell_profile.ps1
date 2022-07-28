@@ -23,9 +23,13 @@ if (Test-Path($ChocolateyProfile)) {
 }
 
 # 5. Varied Functions
-# <1> To move to Desktop <1> #
+# <1> Moving to Desktop <1> #
 function desktop() {
   Set-Location -Path "D:\OneDrive\Harold\Desktop"
+}
+# <2> Moving to Ubuntu directory <2> #
+function ubuntu20go() {
+  Set-Location -Path "\\wsl$\Ubuntu-22.04"
 }
 
 # 5. Varied Alias
