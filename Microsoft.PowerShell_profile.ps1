@@ -97,4 +97,7 @@ function gitLast5Commits() {
 }
 
 # 10. Speech Integration
-# <1> 
+# <1> Powershell Speaks
+
+
+# <2> Powershell Listens
