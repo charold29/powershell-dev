@@ -89,3 +89,12 @@ function trash() {
 }
 
 set-alias papelera trash
+
+# 9. Git Commands in Functions
+# <1> Get Last 5 Commits in OneLine <1>
+function gitLast5Commits() {
+  git log --oneline -n 5
+}
+
+# 10. Speech Integration
+# <1> 
