@@ -98,6 +98,15 @@ function gitLast5Commits() {
 
 # 10. Speech Integration
 # <1> Powershell Speaks
+Add-Type -AssemblyName System.Speech
+$synthesizer = New-Object -TypeName System.Speech.Synthesis.SpeechSynthesizer
 
+function say() {
+  param (
+    [String]$text
+  )
+
+  $synthesizer.Speak($text) 
+}
 
 # <2> Powershell Listens
