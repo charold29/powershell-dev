@@ -39,7 +39,7 @@ set-alias escritorio desktop
 Import-Module AudioDeviceCmdlets
 
 function switch-audio() {
-  D:\OneDrive\Harold\Documentos\PowerShell\Scripts\switch-audio.ps1
+  C:\Users\HaroldR\OneDrive\Documents\Powershell\Scripts\switch-audio.ps1
 }
 
 function set-volume {
