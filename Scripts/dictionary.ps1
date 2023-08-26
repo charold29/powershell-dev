@@ -14,7 +14,7 @@ Try{
 
 $Measure = ($Response | Measure-Object).Count
 
-if ( $Measure -eq 1){
+if ( $Measure -ge 1){
 	$Meaning = $Response.meanings.definitions[$IndexMeaning].definition
 }
 
